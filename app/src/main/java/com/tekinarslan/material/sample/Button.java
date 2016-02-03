@@ -95,7 +95,7 @@ public abstract class Button extends RelativeLayout {
 
     /**
      * Make a dark color to ripple 
-     *234
+     *23421321321
      * @return
      */
     protected int makePressColor() {
