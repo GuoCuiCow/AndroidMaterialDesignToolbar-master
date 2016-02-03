@@ -1,7 +1,5 @@
 diff a/hello.js b/hello.js	(rejected hunks)
-@@ -1,5 +1,4 @@
-  var a = "a"
-- var b = "a"
- -var b = "b"
- +<<<<<<< HEAD
- +var b = "a"
+@@ -2,0 +2 @@
+\ No newline at end of file
++var a = "a"
+\ No newline at end of file
