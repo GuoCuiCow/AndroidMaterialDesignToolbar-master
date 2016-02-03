@@ -1,0 +1,7 @@
+diff a/hello.js b/hello.js	(rejected hunks)
+@@ -1,5 +1,4 @@
+  var a = "a"
+- var b = "a"
+ -var b = "b"
+ +<<<<<<< HEAD
+ +var b = "a"
