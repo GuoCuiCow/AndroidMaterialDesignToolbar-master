@@ -91,32 +91,11 @@ public abstract class Button extends RelativeLayout {
             x = -1;
             y = -1;
         }
-    }
-
-    public Bitmap makeCircle() {
-        Bitmap output = Bitmap.createBitmap(getWidth() - dpToPx(6, getResources()),
-                getHeight() - dpToPx(7, getResources()), Config.ARGB_8888);
-        Canvas canvas = new Canvas(output);
-        canvas.drawARGB(0, 0, 0, 0);
-        Paint paint = new Paint();
-        paint.setAntiAlias(true);
-        paint.setColor(makePressColor());
-        canvas.drawCircle(x, y, radius, paint);
-        if (radius > getHeight() / rippleSize)
-            radius += rippleSpeed;
-        if (radius >= getWidth()) {
-            x = -1;
-            y = -1;
-            radius = getHeight() / rippleSize;
-            if (onClickListener != null)
-                onClickListener.onClick(this);
-        }
-        return output;
-    }
+    }}
 
     /**
-     * Make a dark color to ripple effect
-     *
+     * Make a dark color to ripple 
+     *234
      * @return
      */
     protected int makePressColor() {
