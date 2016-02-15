@@ -1,5 +1,0 @@
-diff a/hello.js b/hello.js	(rejected hunks)
-@@ -2,0 +2 @@
-\ No newline at end of file
-+var a = "a"
-\ No newline at end of file
